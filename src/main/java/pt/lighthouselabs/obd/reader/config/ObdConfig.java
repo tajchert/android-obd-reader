@@ -39,6 +39,8 @@ public final class ObdConfig {
     // Control
     cmds.add(new CommandEquivRatioObdCommand());
     cmds.add(new DtcNumberObdCommand());
+    //cmds.add(new AirFuelRatioCommand());
+    cmds.add(new MassAirFlowObdCommand());
     cmds.add(new TimingAdvanceObdCommand());
     cmds.add(new TroubleCodesObdCommand(0));
 
